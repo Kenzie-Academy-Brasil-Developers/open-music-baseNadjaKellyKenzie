@@ -1,8 +1,130 @@
 /* Desenvolva sua estilização aqui ... */
 
-header{
+header {
+    display: flex;
+    gap: 370px;
+    margin-left: 550px;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+header h1 {
+    display: flex;
+    color: var(--color-grey-0);
+
+}
+
+header button {
+    display: flex;
+    border: none;
+    border-radius: var(--radius-1);
+    width: 30px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-grey-5);
+
+}
+
+main {
+    margin-left: 550px;
+    margin-right: 550px;
+
+}
+
+main h2 {
+    display: flex;
+    margin-top: 80px;
+    color: var(--color-grey-0);
+    font-size: var(--font-2);
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+.buttons__filter-music {
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 600px;
+
+}
+
+label {
+    display: flex;
+    padding: 7px;
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-2);
+    font-size: var(--font-3);
+    font-weight: bold;
+
+}
+
+label:hover {
+    background-color: var(--color-disable-fixed);
+    color: var(--color-white-fixed);
+    border: 1px solid var(--color-white-fixed);
+}
+
+/* /////////////////////// */
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 600px;
+    gap: 25px;
+
+}
+
+li {
+    list-style: none;
+    background-color: var(--color-grey-6);
+}
+
+img {
+    width: 287px;
+}
+
+.info {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 0px 14px;
+    gap: 16px;
+    flex-direction: column;
+    margin-top: 13px;
+    color: var(--color-grey-2);
+}
+
+.era {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    font-size: var(--font-3);
+}
+
+.button__purchase {
     display: flex;
     justify-content: space-between;
     align-items: center;
-width: 690px;
+
 }
+
+.button__purchase button {
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+    background-color: var(--color-grey-4);
+    border-radius: var(--radius-1);
+    color: var(--color-grey-1);
+}
+
+/* border-radius: var(--radius-1);
+background-color: var(--color-grey-6);
+color: var(--color-grey-2);
+font-size: var(--font-3); */
