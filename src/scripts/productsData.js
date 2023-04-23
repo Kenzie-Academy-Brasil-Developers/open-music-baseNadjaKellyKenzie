@@ -6,6 +6,7 @@ const products = [
     img: './src/assets/img/1.jpg',
     band: "Scalene",
     year: 2017,
+    audio: './audios/extremos_pueris.mp3',
     id: 0,
   },
   {
@@ -15,6 +16,7 @@ const products = [
     img: './src/assets/img/2.jpg',
     band: "Novos Baianos",
     year: 1972,
+    audio: './audios/extremos_pueris.mp3',
     id: 1,
   },
   {
