@@ -17,71 +17,34 @@
   </header>
   <main>
     <h2>Gênero Musical</h2>
-    <div class="buttons__filter-music">
 
-      <label class="all" for="all">Todos</label>
-      <input class="all" type="radio" name="all" id="all" value="0" hidden>
-
-      <label class="pop" for="pop">Pop</label>
-      <input class="pop" type="radio" nome="pop" id="pop" value="1" hidden>
-
-      <label class="mpb" for="mpb">MPB</label>
-      <input class="mpb" type="mpb" nome="mpb" id="mpb" value="2" hidden>
-
-      <label class="forro" for="forro">Forró</label>
-      <input class="forro" type="forro" nome="forro" id="forro" value="3" hidden>
-
-      <label class="samba" for="samba">Samba</label>
-      <input class="samba" type="samba" nome="samba" id="samba" value="4" hidden>
-
-      <label class="baiao" for="baiao">Baião</label>
-      <input class="baiao" type="baiao" nome="baiao" id="baiao" value="5" hidden>
-
-      <label class="rap" for="rap">Rap</label>
-      <input class="rap" type="rap" nome="rap" id="rap" value="6" hidden>
-
-      <label class="hip-rop" for="hip-rop">Hip-Hop</label>
-      <input class="hip-rop" type="hip-rop" nome="hip-rop" id="hip-rop" value="7" hidden>
-
-      <label class="rock" for="rock">Rock</label>
-      <input class="rock" type="rock" nome="rock" id="rock" value="8" hidden>
-
-      <label class="reggae" for="reggae">Reggae</label>
-      <input class="reggae" type="reggae" nome="reggae" id="reggae" value="9" hidden>
-
-      <label class="mpb" for="mpb">Country</label>
-      <input class="mpb" type="mpb" nome="mpb" id="mpb" value="10" hidden>
-
-      <label class="gospel" for="gospel">Gospel</label>
-      <input class="gospel" type="gospel" nome="gospel" id="gospel" value="11" hidden>
-
-      <!-- <label class="gospel" for="gospel">gospel</label>
-  <input class="gospel" type="gospel" nome="gospel" id="gospel" value="2" hidden> -->
+    <div id="buttons__filter-music">
+      <button>Todos</button>
+      <button>Pop</button>
+      <button>MPB</button>
+      <button>Forró</button>
+      <button>Samba</button>
+      <button>Baião</button>
+      <button>Rap</button>
+      <button>Hip-Hop</button>
+      <button>Rock</button>
+      <button>Reggae</button>
+      <button>Country</button>
+      <button>Gospel</button>
     </div>
 
     <div class="button__filter-value">
-      <h2>Definir preço</h2>
-      <p>R$ 0,00</p>
-
-    </div>
+<div class="infoInput">
+  <h2>Definir preço</h2>
+  <span class="spanRage">Até R$100,00</span>
+</div class="slice">
+      <label for="valueRage"></label>
+      <input id="inputRage" type="range" min="0" max="100" step="0" class="rangeSlice">
+</div>
 
     <div>
       <h2>Albuns encontrados</h2>
-      <ul>
-        <li>
-          <img src="./src/assets/img/1.jpg" alt="">
-          <div class="info">
-            <div class="era">
-              <p>Scalene</p>
-              <p>2007</p>
-            </div>
-            <h3>Magenetite</h3>
-            <div class="button__purchase">
-              <p>R$ 70,00</p>
-              <button>Comprar</button>
-            </div>
-          </div>
-        </li>
+      <ul class="render">
       </ul>
     </div>
 
