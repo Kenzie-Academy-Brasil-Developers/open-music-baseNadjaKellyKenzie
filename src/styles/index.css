@@ -2,7 +2,7 @@
 
 header {
     display: flex;
-    gap: 370px;
+    gap: 381px;
     margin-left: 550px;
     align-items: center;
     margin-top: 70px;
@@ -45,9 +45,10 @@ main h2 {
 #buttons__filter-music {
     display: flex;
     margin-top: 35px;
-    gap: 25px;
+    gap: 24px;
     flex-wrap: wrap;
     width: 600px;
+    
 }
 
 #buttons__filter-music button {
@@ -58,13 +59,17 @@ main h2 {
     color: var(--color-grey-2);
     font-size: var(--font-3);
     font-weight: bold;
-    border: none;
+    border: 1px solid transparent;
+    box-sizing: border-box
 }
 
 #buttons__filter-music button:hover {
     background-color: var(--color-disable-fixed);
     color: var(--color-white-fixed);
     border: 1px solid var(--color-white-fixed);
+    transition: none;
+    animation: none;
+    box-sizing: border-box
 
 }
 
@@ -130,6 +135,7 @@ img {
 .button__filter-value {
     display: flex;
     flex-direction: column;
+    width: 595px;
 }
 
 .infoInput {
